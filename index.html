@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Muse - Fashion Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>STYLE MUSE ✨</h1>
+        <p>Your Daily Dose of Fashion & Style</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#blogs">Fashion</a>
+        <a href="#trends">Trends</a>
+        <a href="#about">About</a>
+        <button onclick="changeTheme()">🌙</button>
+    </nav>
+
+    <section id="home" class="hero">
+        <h2>Fashion is Your Story 👗</h2>
+        <p>Discover trends, styling tips and fashion inspiration.</p>
+        <button onclick="exploreFashion()">Explore Fashion</button>
+    </section>
+
+    <section id="blogs">
+        <h2 class="title">Latest Fashion Blogs</h2>
+
+        <div class="blog-container">
+
+            <div class="blog-card">
+                <div class="fashion-img">👗</div>
+                <h3>Trending Outfits</h3>
+                <p>Discover the latest outfits that are trending this season.</p>
+                <button onclick="readBlog('Trending Outfits')">
+                    Read More
+                </button>
+            </div>
+
+            <div class="blog-card">
+                <div class="fashion-img">👠</div>
+                <h3>Shoes & Accessories</h3>
+                <p>Complete your look with the perfect shoes and accessories.</p>
+                <button onclick="readBlog('Shoes & Accessories')">
+                    Read More
+                </button>
+            </div>
+
+            <div class="blog-card">
+                <div class="fashion-img">👜</div>
+                <h3>Style Tips</h3>
+                <p>Simple fashion tips to make your everyday outfits stylish.</p>
+                <button onclick="readBlog('Style Tips')">
+                    Read More
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="trends" class="trends">
+        <h2>✨ Fashion Trends</h2>
+        <p>Minimal • Elegant • Street Style • Y2K • Traditional</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Style Muse</h2>
+        <p>
+            Style Muse is a fashion blog where we share outfit ideas,
+            styling tips, beauty inspiration and the latest fashion trends.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Style Muse | Fashion with Confidence 💕</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

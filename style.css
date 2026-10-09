@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #fff8f8;
+    color: #333;
+    transition: 0.4s;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 45px 20px;
+    background: #e8b7b7;
+}
+
+header h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 18px;
+    background: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b45f68;
+}
+
+nav button {
+    border: none;
+    background: #b45f68;
+    color: white;
+    padding: 9px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: #f5dddd;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #8f4650;
+}
+
+.hero p {
+    margin: 15px;
+    font-size: 18px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background: #a9545e;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Blog Section */
+
+#blogs {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    color: #8f4650;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.blog-card {
+    width: 290px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ddd;
+    transition: 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+}
+
+.fashion-img {
+    font-size: 65px;
+    background: #f8e5e5;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.blog-card h3 {
+    margin: 18px 0 10px;
+    color: #8f4650;
+}
+
+.blog-card p {
+    line-height: 1.5;
+}
+
+.blog-card button {
+    margin-top: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #b45f68;
+    color: white;
+    cursor: pointer;
+}
+
+/* Trends */
+
+.trends {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f5dddd;
+}
+
+.trends h2 {
+    color: #8f4650;
+    margin-bottom: 15px;
+}
+
+/* About */
+
+.about {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about h2 {
+    color: #8f4650;
+    margin-bottom: 15px;
+}
+
+.about p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e8b7b7;
+}
+
+/* Dark Mode */
+
+.dark {
+    background: #211b1d;
+    color: white;
+}
+
+.dark nav {
+    background: #30282a;
+}
+
+.dark nav a {
+    color: white;
+}
+
+.dark .blog-card {
+    background: #30282a;
+}
+
+.dark .fashion-img {
+    background: #403336;
+}
